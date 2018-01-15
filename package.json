@@ -1,0 +1,31 @@
+{
+    "name": "yesterday-night-bright",
+    "displayName": "Yesterday Night Bright",
+    "description": "Subtle color modifications to the Tomorrow Night Bright theme to make it easier to read in VSCode",
+    "version": "1.0.0",
+    "publisher": "kylerross",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/KyleRoss/vscode-yesterday-night-bright/issues"
+    },
+    "homepage": "https://github.com/KyleRoss/vscode-yesterday-night-bright/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/KyleRoss/vscode-yesterday-night-bright.git"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Yesterday Night Bright",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Yesterday Night Bright-color-theme.json"
+            }
+        ]
+    }
+}
